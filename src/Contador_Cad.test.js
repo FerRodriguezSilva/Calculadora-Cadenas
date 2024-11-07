@@ -7,4 +7,7 @@ describe("Cadena Vacia", () => {
     it('Si la ceda tiene un numero devolver ese numero',()=>{
         expect(contCadena("2")).toEqual(2);
     })
+    it('Si la cadena tiene ahora mas de un valor',()=>{
+        expect(contCadena("2,3")).toEqual(5);
+    })
   });
