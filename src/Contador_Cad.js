@@ -5,7 +5,7 @@ function contCadena(cadena) {
     }
 
     
-    let partes = cadena.split(",").map(Number);
+    let partes = cadena.split(/[,|-]/).map(Number);
     let suma_total = 0;
 
     for (let i = 0; i < partes.length; i++) {

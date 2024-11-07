@@ -10,4 +10,7 @@ describe("Cadena Vacia", () => {
     it('Si la cadena tiene ahora mas de un valor',()=>{
         expect(contCadena("2,3")).toEqual(5);
     })
+    it('Si la cadena tiene un diferente separador',()=>{
+        expect(contCadena("2,3-5")).toEqual(10);
+    })
   });
