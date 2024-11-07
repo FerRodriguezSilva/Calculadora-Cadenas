@@ -1,12 +1,11 @@
 function contCadena(cadena)
 {
-    let cadenapr =cadena
-    let suma_total
-    if(cadenapr == ""){
+     let suma_total
+    if(cadena == ""){
         suma_total = 0;
         return suma_total
     }
-   
+   return Number(cadena);
 
 }
 
